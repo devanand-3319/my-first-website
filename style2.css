@@ -1,0 +1,81 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: lightgray;
+    margin: 0;
+    padding: 20px;
+    color: darkgray;
+}
+
+
+h1, h3 {
+    text-align: center;
+    color:midnightblue;
+}
+
+
+h4 {
+    color: black;
+    margin-top: 30px;
+}
+
+
+form {
+    max-width: 900px;
+    margin: auto;
+    background-color:white;
+    padding: 30px;
+    border-radius: 12px;
+    ;
+}
+
+
+img {
+    width: 250px;
+    height: auto;
+    border-radius: 10px;
+    border: 2px solid black;
+    
+}
+
+
+input[type="checkbox"] {
+    margin-top: 10px;
+    transform: scale(1.2);
+}
+
+
+label {
+    font-weight:bold;
+    margin-right: 10px;
+}
+
+textarea {
+    resize: none;
+    font-size: 14px;
+    padding: 5px;
+    margin-top: 5px;
+    width: 40px;
+    height: 25px;
+}
+
+
+input[type="submit"] {
+    display: block;
+    margin: 30px auto 0;
+    background-color: grey;
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    font-size: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+
+
+.food-item {
+    margin-bottom: 40px;
+    text-align: center;
+}
